@@ -7,7 +7,7 @@ dht DHT;
 
 void setup(){
   Serial.begin(9600);
-  Serial.println("SQUISHY TEMPERATURE AND HUMIDITY DEVICE");
+  Serial.println("TEMPERATURE AND HUMIDITY DEVICE");
   pinMode(9,OUTPUT);
   pinMode(13,OUTPUT);
   
@@ -43,3 +43,4 @@ float convertF(float a){
   a+= 32;
   return a;
 }
+
